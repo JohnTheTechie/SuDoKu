@@ -129,6 +129,12 @@
   <ItemGroup>
     <ClCompile Include="SuDoKu.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="desc.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MatrixContainerInterface.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
